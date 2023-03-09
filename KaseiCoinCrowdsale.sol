@@ -13,13 +13,13 @@ contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale, Time
 
     // crowdsale constructor
     constructor(
-        uint rate,
-        address payable wallet,
-        KaseiCoin token,
+        uint rate, // rate
+        address payable wallet, // wallet
+        KaseiCoin token, // coin crontract import
         uint goal, // crowdsale goal
         uint open, // crowdsale opening time
         uint close // crowdsale closing
-    ) public 
+    ) public
         Crowdsale(rate, wallet, token)
         CappedCrowdsale(goal)
         TimedCrowdsale(open, close)
@@ -37,10 +37,10 @@ contract KaseiCoinCrowdsaleDeployer {
 
     // deployer constructor
     constructor(
-       string memory name,
-       string memory symbol,
-       address payable wallet,
-       uint goal
+       string memory name, // token name
+       string memory symbol, // token symbol
+       address payable wallet, // wallet
+       uint goal // goal set for funds
     ) public {
         // Creates a new instance of the KaseiCoin contract
         KaseiCoin token = new KaseiCoin(name, symbol, 0);
