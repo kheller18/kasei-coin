@@ -11,9 +11,9 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 // KaseiCoin contract
 contract KaseiCoin is ERC20, ERC20Detailed, ERC20Mintable {
     constructor(
-        string memory name,
-        string memory symbol,
-        uint initial_supply
+        string memory name, // token name
+        string memory symbol, // token symbol
+        uint initial_supply // initial supply
     )
         ERC20Detailed(name, symbol, 18)
         public
