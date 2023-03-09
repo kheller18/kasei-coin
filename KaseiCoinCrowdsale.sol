@@ -9,7 +9,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 // * Crowdsale
 // * MintedCrowdsale
 contract KaseiCoinCrowdsale { // UPDATE THE CONTRACT SIGNATURE TO ADD INHERITANCE
-    
+
     // Provide parameters for all of the features of your crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
     constructor(
         // YOUR CODE HERE!
@@ -31,19 +31,19 @@ contract KaseiCoinCrowdsaleDeployer {
     ) public {
         // Create a new instance of the KaseiCoin contract.
         // YOUR CODE HERE!
-        
+
         // Assign the token contract’s address to the `kasei_token_address` variable.
         // YOUR CODE HERE!
 
         // Create a new instance of the `KaseiCoinCrowdsale` contract
         // YOUR CODE HERE!
-            
+
         // Aassign the `KaseiCoinCrowdsale` contract’s address to the `kasei_crowdsale_address` variable.
         // YOUR CODE HERE!
 
         // Set the `KaseiCoinCrowdsale` contract as a minter
         // YOUR CODE HERE!
-        
+
         // Have the `KaseiCoinCrowdsaleDeployer` renounce its minter role.
         // YOUR CODE HERE!
     }
