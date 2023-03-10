@@ -1,11 +1,23 @@
 # Kasei Coin
-
 ![license badge](https://shields.io/badge/license-mit-blue)
 
 ---
 
 ## Description
-This project aims to create a new ERC-20 coin named KaseiCoin (KCOIN). We first write the contract that holds the funds. We then provide two addresses, the only two addresses that are able to withdraw from the owning account. The testing of this contract is done using [Remix](https://remix-project.org/).
+This project aims to create a new ERC-20 token named KaseiCoin (KCOIN) and provide a time period and goal for crowdsale of the token. The writing of the contracts is done using [Remix](https://remix-project.org/).  The testing of the contract via a blockchain is done using [Ganache](https://trufflesuite.com/ganache/). The wallet used to purchase tokens and sign transactions is [MetaMask](https://metamask.io/).
+
+The first step is to create a test network in [MetaMask](https://metamask.io/). Once this is complete, we want to add to accounts that will be able to interact with this test network. This is done by importing accounts into [MetaMask](https://metamask.io/) via private keys from [Ganache](https://trufflesuite.com/ganache/). Once this is complete, you should have something that looks like the following image (default ETH value is usually 100 ETH):
+
+<img src="Media/Images/MetaMask_devNetwork.png" height="350">
+
+Once this is complete, we now need to test our contracts. The first contract `KaseiCoin` is compiled and we can see it successfully compiles with no errors:
+![KaseiCoin Contract](Media/Images/KaseiCoin_compile.png)
+
+Next, we want to ensure our `KaseiCoinCrowdsale` contract compiles successfully, which is shown below:
+![KaseiCoinCrowdsale Contract](Media/Images/KaseiCoinCrowdsale_compile.png)
+
+Next, we want to ensure our `KaseiCoinCrowdsaleDeployer` contract compiles successfully, which is shown below:
+![KaseiCoinCrowdsaleDeployer Contract](Media/Images/KaseiCoinCrowdsaleDeployer_compile.png)
 
 ![full transaction video](Media/Gifs/KaseiCoin_full_transaction_process.gif)
 
