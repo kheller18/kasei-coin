@@ -25,7 +25,7 @@ Once this has been completed, we want to deploy our `KaseiCoinCrowdsaleDeployer`
 After selecting confirm in [MetaMask](https://metamask.io/), you can navigate to [Ganache](https://trufflesuite.com/ganache/) and the contract creation should appear in your Transactions tab, as shown below:
 ![Ganache Contract Deployment](Media/Images/KaseiCoinGanacheDeployment.png)
 
-We are now ready to test our contract!
+We are now ready to test and interact with our contract! During this crowdfunding phase, we are able to buy tokens, check balance of different addresses (addresses that bought tokens), see how much Wei has been raised, etc. We're able to see the full process of some of these functions in the Gif below:
 
 ![full transaction video](Media/Gifs/KaseiCoin_full_transaction_process.gif)
 
@@ -100,7 +100,7 @@ We are now ready to test our contract!
 ---
 
 ## 6. Deployment
-  + There is currently no live deployment of this app on a common server. To be able to run this app, upload the `KaseiCoin.sol` and `KaseiCoinCrowdsale.sol` files into [Remix IDE](https://remix-project.org/). Next, compile the contract and deploy it. Upon successful deployment, you will be able to test the functions of the contract.
+  + There is currently no live deployment of this app on a common server. To be able to run this app, upload the `KaseiCoin.sol` and `KaseiCoinCrowdsale.sol` files into the [Remix IDE](https://remix-project.org/). Next, compile the contract and deploy it using [Ganache](https://trufflesuite.com/ganache/) and [MetaMask](https://metamask.io/). Upon successful deployment, you will be able to test the functions of the contract.
 
 ---
 
