@@ -15,7 +15,7 @@ contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale, Time
     constructor(
         uint rate, // rate
         address payable wallet, // wallet
-        KaseiCoin token, // coin crontract import
+        KaseiCoin token, // coin contract import
         uint goal, // crowdsale goal
         uint open, // crowdsale opening time
         uint close // crowdsale closing
