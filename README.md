@@ -19,6 +19,14 @@ Next, we want to ensure our `KaseiCoinCrowdsale` contract compiles successfully,
 Next, we want to ensure our `KaseiCoinCrowdsaleDeployer` contract compiles successfully, which is shown below:
 ![KaseiCoinCrowdsaleDeployer Contract](Media/Images/KaseiCoinCrowdsaleDeployer_compile.png)
 
+Once this has been completed, we want to deploy our `KaseiCoinCrowdsaleDeployer` contract, which will create our two other contracts along with it.  We do so by navigating to the `Deploy and run transcations` tab in [Remix](https://remix-project.org/) and selecting `Injected Provider - MetaMask` from the list of dropdown options under Environment.  When selected, [MetaMask](https://metamask.io/) should automatically open and the window should look like this:
+<img src="Media/Images/KaseiCoin_contract_deployment.png" height="350">
+
+After selecting confirm in [MetaMask](https://metamask.io/), you can navigate to [Ganache](https://trufflesuite.com/ganache/) and the contract creation should appear in your Transactions tab, as shown below:
+![Ganache Contract Deployment](Media/Images/KaseiCoinGanacheDeployment.png)
+
+We are now ready to test our contract!
+
 ![full transaction video](Media/Gifs/KaseiCoin_full_transaction_process.gif)
 
 ---
