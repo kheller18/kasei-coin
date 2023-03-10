@@ -5,7 +5,9 @@
 ---
 
 ## Description
-This project aims to create a Joint Savings Account using Solidity. We first write the contract that holds the funds. We then provide two addresses, the only two addresses that are able to withdraw from the owning account. The testing of this contract is done using [Remix](https://remix-project.org/).
+This project aims to create a new ERC-20 coin named KaseiCoin (KCOIN). We first write the contract that holds the funds. We then provide two addresses, the only two addresses that are able to withdraw from the owning account. The testing of this contract is done using [Remix](https://remix-project.org/).
+
+![full transaction video](Media/Gifs/KaseiCoin_full_transaction_process.gif)
 
 ---
 
@@ -78,7 +80,7 @@ This project aims to create a Joint Savings Account using Solidity. We first wri
 ---
 
 ## 6. Deployment
-  + There is currently no live deployment of this app on a common server. To be able to run this app, upload the `` file to the [Remix IDE](https://remix-project.org/). Next, compile the contract and deploy it. Upon successful deployment, you will be able to test the functions of the contract.
+  + There is currently no live deployment of this app on a common server. To be able to run this app, upload the `KaseiCoin.sol` and `KaseiCoinCrowdsale.sol` files into [Remix IDE](https://remix-project.org/). Next, compile the contract and deploy it. Upon successful deployment, you will be able to test the functions of the contract.
 
 ---
 
