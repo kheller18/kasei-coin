@@ -25,8 +25,10 @@ Once this has been completed, we want to deploy our `KaseiCoinCrowdsaleDeployer`
 After selecting confirm in [MetaMask](https://metamask.io/), you can navigate to [Ganache](https://trufflesuite.com/ganache/) and the contract creation should appear in your Transactions tab, as shown below:
 ![Ganache Contract Deployment](Media/Images/KaseiCoinGanacheDeployment.png)
 
-We are now ready to test and interact with our contract! During this crowdfunding phase, we are able to buy tokens, check balance of different addresses (addresses that bought tokens), see how much Wei has been raised, etc. We're able to see the full process of some of these functions in the Gif below:
+We are now ready to test and interact with our contract! During this crowdfunding phase, we are able to buy tokens, check the balance of different addresses (addresses that bought tokens), see how much Wei has been raised, view total supply, etc. After many transactions, we can see the total supply below.
+![Total Supply after Transactions](Media/Images/KaseiCoin_total_supply.png)
 
+We're able to see the full process of some of these functions described above in the Gif below:
 ![full transaction video](Media/Gifs/KaseiCoin_full_transaction_process.gif)
 
 ---
